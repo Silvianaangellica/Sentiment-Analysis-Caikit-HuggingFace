@@ -2,10 +2,10 @@
 
 ---
 ### Material by Cognitive Class AI
-### task by CognitiveClass.ai
+### Task by CognitiveClass.ai
 ---
-### My Name : **Silviana Anggellica**
-### My Program : **IBM Advance AI** at Infinite Learning
+### My Name : _Silviana Anggellica_
+### My Program : _IBM Advance AI_ at Infinite Learning
 ---
 ### Tools :
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -18,7 +18,8 @@
 
 
 ### Model :
-- pipeline : analysis_sentiment
+- pipeline
+- analysis_sentiment
 - Caikit
 - Hugging Face
 ---
@@ -58,10 +59,10 @@ cd data_model
 ```
 
 ##### 2nd :
-### add code in the **classification.py**
+### add code in the `classification.py`
 
 ##### 3rd :
-### add code in the **__init__.py**
+### add code in the `__init__.py`
 
 
 
@@ -73,7 +74,7 @@ cd models/text_sentiment
 ```
 
 ##### 2nd : 
-### add code in the **config.yml**
+### add code in the `config.yml`
 
 ##### 3rd in the terminal :
 ```
@@ -83,16 +84,16 @@ cd runtime_model
 ```
 
 ##### 4th :
-### add code in the **hf_module.py**
+### add code in the `hf_module.py`
 
 ##### 5th :
-### add code in the **__init__.py**
+### add code in the `__init__.py`
 
 ##### 6th :
-### add code in the **config.yml**
+### add code in the `config.yml`
 
 ##### 7th :
-### add code in the **__init__.py**
+### add code in the `__init__.py`
 
 
 
@@ -103,7 +104,7 @@ cd /home/project/text-sentiment
 ```
 
 ##### 2nd : 
-### add code in the **requirements.txt**
+### add code in the `requirements.txt`
 
 ##### 3rd  in the terminal: 
 ```
