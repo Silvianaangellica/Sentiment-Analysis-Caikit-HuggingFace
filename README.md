@@ -68,9 +68,7 @@ cd data_model
 
 ##### 3rd :
 #### add code in the `__init__.py`
-
-
-
+---
 3. Create the model wrapper
 ##### 1st in the terminal :
 ```
