@@ -47,7 +47,7 @@
 ```
 pip install --user virtualenv
 ```
-
+---
 
 1. Create the project
 ##### 1st in the terminal :
@@ -55,8 +55,7 @@ pip install --user virtualenv
 mkdir -p /home/project/text-sentiment text_sentiment
 cd /home/project/text-sentiment/text_sentiment
 ```
-
-
+---
 2. Create the data model specification
 ##### 1st in the terminal :
 ```
@@ -96,13 +95,11 @@ cd runtime_model
 #### add code in the `__init__.py`
 
 ##### 6th :
-### add code in the `config.yml`
+#### add code in the `config.yml`
 
 ##### 7th :
 #### add code in the `__init__.py`
-
-
-
+---
 4. Include the module and package dependencies
 ##### 1st in the terminal :
 ```
@@ -122,8 +119,7 @@ source env/bin/activate
 ```
 pip install -r requirements.txt
 ```
-
-
+---
 5. Start the Caikit runtime
 ##### 1st : 
 #### add code in the `start_runtime.py`
@@ -132,8 +128,7 @@ pip install -r requirements.txt
 ```
 python start_runtime.py
 ```
-
-
+---
 6. Test the sentiment analysis
 ##### 1st : 
 #### add code in the `client.py`
@@ -146,6 +141,7 @@ python start_runtime.py
 python client.py
 ```
 ---
+
 ###### After following the steps above, the point is like the first and second points below, so that it can run in the second.
 ###### First, start the runtime_model by calling the python function start_runtime.py in the terminal
 ###### Second, call the python function client.py in the terminal
