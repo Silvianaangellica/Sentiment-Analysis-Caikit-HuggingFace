@@ -1,12 +1,11 @@
-## Text Sentiment Analysis Using Caikit and Hugging Face 
-(IBMSkillNetwork GPXX0PYAEN)
+## Text Sentiment Analysis Using Caikit and Hugging Face (IBMSkillNetwork GPXX0PYAEN)
 
 ---
 ### Material by Cognitive Class AI
 ### task by CognitiveClass.ai
 ---
-### My Name : *Silviana Anggellica*
-### My Program : *IBM Advance AI* at Infinite Learning
+### My Name : **Silviana Anggellica**
+### My Program : **IBM Advance AI** at Infinite Learning
 ---
 ### Tools :
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -19,7 +18,7 @@
 
 
 ### Model :
-- pipeline : text_analysis
+- pipeline : analysis_sentiment
 - Caikit
 - Hugging Face
 ---
@@ -34,16 +33,17 @@
 - Start the Caikit runtime
 - Test the sentiment analysis
 ---
+
 ### Documentation
 0. Install Caikit runtime
-#### 1st :
+##### 1st in the terminal :
 ```
 pip install --user virtualenv
 ```
 
 
 1. Create the project
-#### 1st in the terminal
+##### 1st in the terminal :
 ```
 mkdir -p /home/project/text-sentiment text_sentiment
 cd /home/project/text-sentiment/text_sentiment
@@ -51,75 +51,90 @@ cd /home/project/text-sentiment/text_sentiment
 
 
 2. Create the data model specification
-#### 1st in the terminal
+##### 1st in the terminal :
 ```
 mkdir data_model
 cd data_model
 ```
-#### 2nd
-### add code in the *classification.py*
-#### 3rd
-### add code in the *__init__.py*
+
+##### 2nd :
+### add code in the **classification.py**
+
+##### 3rd :
+### add code in the **__init__.py**
 
 
 
 3. Create the model wrapper
-####1st
+##### 1st in the terminal :
 ```
 cd /home/project/text-sentiment mkdir -p models/text_sentiment
 cd models/text_sentiment
 ```
-#### 2nd
-### add code in the *config.yml*
-#### 3rd
+
+##### 2nd : 
+### add code in the **config.yml**
+
+##### 3rd in the terminal :
 ```
 cd /home/project/text-sentiment text_sentiment
 mkdir runtime_model
 cd runtime_model
 ```
-#### 4th
-### add code in the *hf_module.py*
-#### 5th
-### add code in the *__init__.py*
-#### 6th
-### add code in the *config.yml*
-#### 7th
-### add code in the *__init__.py*
+
+##### 4th :
+### add code in the **hf_module.py**
+
+##### 5th :
+### add code in the **__init__.py**
+
+##### 6th :
+### add code in the **config.yml**
+
+##### 7th :
+### add code in the **__init__.py**
+
 
 
 4. Include the module and package dependencies
-#### 1st
+##### 1st in the terminal :
 ```
 cd /home/project/text-sentiment
 ```
-#### 2nd
-### add code in the *requirements.txt*
-#### 3rd
+
+##### 2nd : 
+### add code in the **requirements.txt**
+
+##### 3rd  in the terminal: 
 ```
 virtualenv -p python3 env
 source env/bin/activate
 ```
-#### 4th
+
+##### 4th in the terminal :
 ```
 pip install -r requirements.txt
 ```
 
 
 5. Start the Caikit runtime
-#### 1st
-### add code in the *start_runtime.py*
-#### 2nd
+##### 1st : 
+### add code in the **start_runtime.py**
+
+##### 2nd in the terminal for running : 
 ```
 python start_runtime.py
 ```
 
 
 6. Test the sentiment analysis
-#### 1st
-### add code in the *client.py*
-#### 2nd
-### add text in the *client.py* about anything. Example : "Kemarin aku makan udang asam manis!"."Besok datang lagi, tapi beli ayam bakar saja."
-#### 3rd
+##### 1st : 
+### add code in the **client.py**
+
+##### 2nd : 
+### add text in the **client.py** about anything. Example : "Kemarin aku makan udang asam manis!"."Besok datang lagi, tapi beli ayam bakar saja."
+
+##### 3rd in the terminal for running,this is emosional shape and accuracy: 
 ```
 python client.py
 ```
