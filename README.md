@@ -1,11 +1,15 @@
 ## Text Sentiment Analysis Using Caikit and Hugging Face (IBMSkillNetwork GPXX0PYAEN)
 
 ---
+
 ### Material by Cognitive Class AI
 ### Task by CognitiveClass.ai
+
 ---
+
 ### My Name : _Silviana Anggellica_
 ### My Program : _IBM Advance AI_ at Infinite Learning
+
 ---
 ### Tools :
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
@@ -22,6 +26,7 @@
 - analysis_sentiment
 - Caikit
 - Hugging Face
+
 ---
 
 ### Caikit is an open source AI toolkit that enables users to manage models through a set of developer friendly APIs.
@@ -36,6 +41,7 @@
 ---
 
 ### Documentation
+
 0. Install Caikit runtime
 ##### 1st in the terminal :
 ```
@@ -59,10 +65,10 @@ cd data_model
 ```
 
 ##### 2nd :
-### add code in the `classification.py`
+#### add code in the `classification.py`
 
 ##### 3rd :
-### add code in the `__init__.py`
+#### add code in the `__init__.py`
 
 
 
@@ -74,7 +80,7 @@ cd models/text_sentiment
 ```
 
 ##### 2nd : 
-### add code in the `config.yml`
+#### add code in the `config.yml`
 
 ##### 3rd in the terminal :
 ```
@@ -84,16 +90,16 @@ cd runtime_model
 ```
 
 ##### 4th :
-### add code in the `hf_module.py`
+#### add code in the `hf_module.py`
 
 ##### 5th :
-### add code in the `__init__.py`
+#### add code in the `__init__.py`
 
 ##### 6th :
 ### add code in the `config.yml`
 
 ##### 7th :
-### add code in the `__init__.py`
+#### add code in the `__init__.py`
 
 
 
@@ -104,7 +110,7 @@ cd /home/project/text-sentiment
 ```
 
 ##### 2nd : 
-### add code in the `requirements.txt`
+#### add code in the `requirements.txt`
 
 ##### 3rd  in the terminal: 
 ```
@@ -120,7 +126,7 @@ pip install -r requirements.txt
 
 5. Start the Caikit runtime
 ##### 1st : 
-### add code in the `start_runtime.py`
+#### add code in the `start_runtime.py`
 
 ##### 2nd in the terminal for running : 
 ```
@@ -130,20 +136,20 @@ python start_runtime.py
 
 6. Test the sentiment analysis
 ##### 1st : 
-### add code in the `client.py`
+#### add code in the `client.py`
 
 ##### 2nd : 
-### add text in the `client.py` about anything. _Example from me : "Kemarin aku makan udang asam manis!","Besok datang lagi, tapi beli ayam bakar saja!"_
+#### add text in the `client.py` about anything. _Example from me : "Kemarin aku makan udang asam manis!","Besok datang lagi, tapi beli ayam bakar saja!"_
 
 ##### 3rd in the terminal for running, this is emosional shape and accuracy (output): 
 ```
 python client.py
 ```
 ---
-## After following the steps above, the point is like the first and second points below, so that it can run in the second.
-## First, start the runtime_model by calling the python function start_runtime.py in the terminal
-## Second, call the python function client.py in the terminal
-## That's all from me, thank you
+###### After following the steps above, the point is like the first and second points below, so that it can run in the second.
+###### First, start the runtime_model by calling the python function start_runtime.py in the terminal
+###### Second, call the python function client.py in the terminal
+###### That's all from me, thank you
 
 
 
