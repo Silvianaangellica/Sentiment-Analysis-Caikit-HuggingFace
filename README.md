@@ -120,7 +120,7 @@ pip install -r requirements.txt
 
 5. Start the Caikit runtime
 ##### 1st : 
-### add code in the **start_runtime.py**
+### add code in the `start_runtime.py`
 
 ##### 2nd in the terminal for running : 
 ```
@@ -130,16 +130,19 @@ python start_runtime.py
 
 6. Test the sentiment analysis
 ##### 1st : 
-### add code in the **client.py**
+### add code in the `client.py`
 
 ##### 2nd : 
-### add text in the **client.py** about anything. Example : "Kemarin aku makan udang asam manis!"."Besok datang lagi, tapi beli ayam bakar saja."
+### add text in the `client.py` about anything. _Example from me : "Kemarin aku makan udang asam manis!","Besok datang lagi, tapi beli ayam bakar saja!"_
 
-##### 3rd in the terminal for running,this is emosional shape and accuracy: 
+##### 3rd in the terminal for running, this is emosional shape and accuracy (output): 
 ```
 python client.py
 ```
 ---
+## After following the steps above, the point is like the first and second points below, so that it can run in the second.
+## First, start the runtime_model by calling the python function start_runtime.py in the terminal
+## Second, call the python function client.py in the terminal
 ## That's all from me, thank you
 
 
